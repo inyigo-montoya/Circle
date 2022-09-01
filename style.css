@@ -158,7 +158,7 @@ h4 {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 50%;
+    width: 40%;
     padding: 25px;
     position: relative;
   }
@@ -189,6 +189,27 @@ h4 {
 
   .hero-form {
     display: flex;
+    position: relative;
+    left: -63px;
+  }
+
+  .logo-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px 0px 60px 0px
+  }
+
+  .form-left {
+    display: block;
+
+    width: 100%;
+    padding: 25px;
+  }
+
+  .greyscale {
+    filter: grayscale(100%);
+    width: 75px;
   }
 
 }
@@ -204,11 +225,13 @@ h4 {
     font-weight: bold;
     top: -162px;
     padding: 10px;
+    margin-bottom: 21px;
   }
 
   p {
     position: relative;
     padding: 10px;
+    margin-bottom: -25px;
     color: var(--grey);
     line-height: 130%;
   }
@@ -327,7 +350,21 @@ h4 {
   .hero-form {
     display: flex;
     position: relative;
-    top: 140px;
+    top: 152px;
     justify-content: center;
+  }
+
+
+  .logo-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .greyscale {
+    filter: grayscale(100%);
+    width: 35px;
   }
 }
