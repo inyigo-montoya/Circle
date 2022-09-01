@@ -12,7 +12,7 @@
 
 
 <body>
-  <container>
+  <container id="main-container">
     <nav>
       <img src="./logos/circle.svg" alt="company logo">
       <ul>
@@ -22,7 +22,9 @@
         <li class="navigation"><a href="projects.html">Projects</a></li>
         <li class="navigation"><a href="services.html">Services</a></li>
       </ul>
-      <button>Contact Us</button>
+      <form action="services.html" class="contact-us-button">
+        <input type="submit" value="Contact Us" />
+      </form>
 
     </nav>
 
@@ -33,6 +35,32 @@
       <span></span>
       <img src="./logos/circle.svg" alt="company logo">
     </div>
+
+    <section class="hero">
+      <container class="hero-div">
+
+        <h1>Empower Your Business With Stunning Design!</h1>
+        <p>Circle is a digital design and development studio. <br>
+          We design and develop astonishing websites and mobile apps. </p>
+        <div class="hero-form">
+          <form action="services.html" class="contact-us-button">
+            <input type="submit" value="Get in Touch" />
+          </form>
+          <form action="projects.html">
+            <input type="submit" value="See our Work" class="secondary-button">
+          </form>
+        </div>
+      </container>
+      <container class="hero-div" id="heroimage-container">
+        <img src="hero-section/card-1.png" alt="credit card with to round corners" id="credit-card">
+        <img src="hero-section/hero-image.png" alt="smiling young, succesful, good looking and very happy coder"
+          id="the-hero">
+        <img src="hero-section/card-2.png" alt="emoji and text saying that your job has been accepted" id="ok-emoji">
+      </container>
+
+    </section>
+    <section></section>
+    <section></section>
 
   </container>
   <script src="./index.js"></script>
