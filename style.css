@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  color: var(--nearlyBlack);
 }
 
 :root {
@@ -50,6 +51,8 @@ body {
 h1 {
   font-size: 60px;
   font-weight: bold;
+  color: var(--nearlyBlack);
+  line-height: 125%;
 }
 
 h2 {
@@ -67,7 +70,9 @@ h4 {
   font-weight: bold;
 }
 
-@media screen and (min-width: 501px) {
+
+
+@media screen and (min-width: 701px) {
   #nav-burger img {
     display: none;
   }
@@ -80,6 +85,7 @@ h4 {
     padding: 0 20px;
     height: 60px;
     flex-wrap: wrap;
+    margin-bottom: 50px;
   }
 
   ul {
@@ -141,10 +147,53 @@ h4 {
     font-size: 24px;
     font-weight: bold;
   } */
+  #hero-container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+  }
+
+  .hero-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    padding: 25px;
+    position: relative;
+  }
+
+  #the-hero {
+    width: -webkit-fill-available;
+  }
+
+  #credit-card {
+    width: 54%;
+    position: absolute;
+    top: 0px;
+    left: -58px;
+  }
+
+  #ok-emoji {
+    width: 52%;
+    position: absolute;
+    right: -32px;
+    bottom: -100px;
+  }
+
+  p {
+    font-size: 1.3em;
+    color: var(--grey);
+    line-height: 160%;
+  }
+
+  .hero-form {
+    display: flex;
+  }
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   nav {
     display: none;
   }
@@ -160,7 +209,8 @@ h4 {
   p {
     position: relative;
     padding: 10px;
-    /* top: 0px; */
+    color: var(--grey);
+    line-height: 130%;
   }
 
   #nav-burger {
@@ -169,8 +219,6 @@ h4 {
     position: relative;
     margin-top: 33px;
     margin-left: 40px;
-    /* display: block;
-    margin: 33px auto; */
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -265,14 +313,9 @@ h4 {
     width: 50%;
   }
 
-
   #the-hero {
     margin-bottom: 100px;
   }
-
-  /* #heroimage-container {
-    background-image: url(./hero-section/hero-image.png);
-  } */
 
   #credit-card {
     width: 50%;
