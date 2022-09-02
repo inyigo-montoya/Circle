@@ -239,6 +239,7 @@ h4 {
     width: 75px;
   }
 
+
   h3 {
 
     font-size: 40px;
@@ -257,8 +258,27 @@ h4 {
     padding-left: 25px;
     align-items: flex-start;
     margin-bottom: 150px;
+    position: relative;
   }
 
+  .project-samples a {
+    color: var(--darkBlue)
+  }
+
+  .project-samples h4 {
+    font-size: 24px;
+    color: var(--nearlyBlack);
+    font-weight: bold;
+    /* margin-bottom: 0; */
+  }
+
+  .project-samples p {
+    font-size: 1rem;
+    color: var(--grey);
+    font-weight: 100;
+    position: relative;
+    top: -34px;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -407,11 +427,75 @@ h4 {
     justify-content: space-around;
     align-items: center;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
   }
 
   .greyscale {
     filter: grayscale(100%);
     width: 35px;
+  }
+
+  .project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .projects-info {
+    background: white;
+    height: 209px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 25px;
+    align-items: flex-start;
+    margin-bottom: 150px;
+    position: relative;
+  }
+
+  .project-samples {
+    max-width: 300px;
+    height: 500px;
+  }
+
+  .project-samples img {
+    max-width: 300px;
+    /* margin-bottom: 0; */
+  }
+
+  .project-samples h4 {
+    font-size: 24px;
+    color: var(--nearlyBlack);
+    font-weight: bold;
+    /* margin-bottom: 0; */
+  }
+
+  .recent-projects {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 0 20px;
+    margin-bottom: 30px;
+  }
+
+  .recent-projects h3 {
+    margin-bottom: 50px;
+  }
+
+  .project-samples p {
+    font-size: 1rem;
+    color: var(--grey);
+    font-weight: 100;
+    position: relative;
+    top: -34px;
+    padding: 0%;
+  }
+
+  .project-samples a {
+    color: var(--darkBlue);
   }
 }
