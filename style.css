@@ -187,6 +187,7 @@ h4 {
 
   #the-hero {
     width: -webkit-fill-available;
+    height: auto;
   }
 
   #credit-card {
@@ -269,7 +270,6 @@ h4 {
     font-size: 24px;
     color: var(--nearlyBlack);
     font-weight: bold;
-    /* margin-bottom: 0; */
   }
 
   .project-samples p {
