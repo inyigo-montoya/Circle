@@ -175,6 +175,7 @@ h4 {
     position: relative;
   }
 
+
   .hero-div {
     display: flex;
     flex-direction: column;
@@ -187,7 +188,7 @@ h4 {
 
   #the-hero {
     width: -webkit-fill-available;
-    height: auto;
+    max-height: 535px;
   }
 
   #credit-card {
@@ -518,6 +519,8 @@ h4 {
   }
 
   #the-hero {
+    max-height: 403px;
+    max-width: 403px;
     margin-bottom: 100px;
   }
 
