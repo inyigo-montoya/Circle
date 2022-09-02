@@ -240,7 +240,7 @@ h4 {
   }
 
 
-  h3 {
+  .recent-projects h3 {
 
     font-size: 40px;
     font-weight: bold;
@@ -278,6 +278,120 @@ h4 {
     font-weight: 100;
     position: relative;
     top: -34px;
+  }
+
+  .testimonial-section {
+    display: flex;
+    width: 90vw;
+    height: 500px;
+    margin: 25px 25px;
+    padding: 5px 25px;
+    background-color: var(--nearlyBlack);
+    background-image: url(./testimonial-section/orbit.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+
+  .testimonial-emoji {
+    width: 100px;
+    height: 100px;
+
+  }
+
+  .testimonial-user {
+    width: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: center;
+    left: center;
+  }
+
+  #emoji1 {
+    position: absolute;
+    top: 60px;
+    left: 75px;
+  }
+
+  #emoji2 {
+    position: absolute;
+    bottom: 60px;
+    left: 75px;
+  }
+
+  #emoji3 {
+    position: absolute;
+    top: 60px;
+    right: 75px;
+  }
+
+  #emoji4 {
+    position: absolute;
+    bottom: 60px;
+    right: 75px;
+  }
+
+  .testimonial-section h3 {
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: var(--lightGrey);
+    margin-top: 22px;
+    margin-left: 40px;
+    margin-bottom: 67px;
+  }
+
+  .testimonial-section article {
+    font-size: 1.3rem;
+    color: var(--yellowishOrange);
+    font-weight: 100;
+  }
+
+  #first-article {
+    position: absolute;
+    top: 245px;
+
+  }
+
+  #second-article {
+    position: absolute;
+    top: 280px;
+  }
+
+  .testimonial-user {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 385px;
+    border-radius: 50%;
+    top: center;
+    left: center;
+  }
+
+  .user-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 168px;
+  }
+
+  #name {
+    font-size: 0.7rem;
+    font-weight: 100;
+    color: var;
+    color: var(--paleBlue);
+    line-height: 140%;
+  }
+
+  .user-container p {
+    font-size: 0.55rem;
+    font-weight: 100;
+    color: var(--lightGrey);
+    line-height: 140%;
   }
 }
 
@@ -478,7 +592,6 @@ h4 {
     justify-content: space-between;
     align-items: center;
     margin-top: 30px;
-    padding: 0 20px;
     margin-bottom: 30px;
   }
 
@@ -497,5 +610,123 @@ h4 {
 
   .project-samples a {
     color: var(--darkBlue);
+  }
+
+  .testimonial-section {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    padding: 5px 25px;
+    background-color: var(--nearlyBlack);
+    background-image: url(./testimonial-section/orbit.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+
+  .testimonial-emoji {
+    width: 80px;
+    height: 80px;
+  }
+
+  .testimonial-user {
+    width: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: center;
+    left: center;
+  }
+
+  #emoji1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  #emoji2 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+
+  #emoji3 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  #emoji4 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  #testimonial-customer {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--lightGrey);
+    margin-top: 22px;
+  }
+
+  .testimonial-section h3 {
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: var(--lightGrey);
+    margin-top: 22px;
+    margin-bottom: 67px;
+  }
+
+  .testimonial-section article {
+    font-size: 1rem;
+    color: var(--yellowishOrange);
+    font-weight: 100;
+  }
+
+  #first-article {
+    position: absolute;
+    top: 245px;
+
+  }
+
+  #second-article {
+    position: absolute;
+    top: 280px;
+  }
+
+  .testimonial-user {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    top: 399px;
+    border-radius: 50%;
+    top: center;
+    left: center;
+  }
+
+  .user-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 154px;
+  }
+
+  #name {
+    font-size: 0.7rem;
+    font-weight: 100;
+    color: var;
+    color: var(--paleBlue);
+    line-height: 140%;
+  }
+
+  .user-container p {
+    font-size: 0.55rem;
+    font-weight: 100;
+    color: var(--lightGrey);
+    line-height: 140%;
   }
 }
