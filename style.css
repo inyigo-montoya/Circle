@@ -290,8 +290,9 @@ h4 {
     justify-content: space-around;
     padding-left: 25px;
     align-items: flex-start;
-    margin-bottom: 150px;
+    margin-bottom: 30px;
     position: relative;
+    box-shadow: 0px 10px 17px 10px rgb(232 233 239);
   }
 
   .project-samples a {
@@ -316,7 +317,7 @@ h4 {
     display: flex;
     width: 90vw;
     height: 500px;
-    margin: 25px 25px;
+    margin: 70px 25px;
     padding: 5px 25px;
     background-color: var(--nearlyBlack);
     background-image: url(./testimonial-section/orbit.png);
@@ -631,6 +632,39 @@ h4 {
     top: 14px;
     left: 22px;
   }
+
+  footer {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+  }
+
+  footer img {
+    position: relative;
+    top: 15px;
+    margin-bottom: 0px;
+  }
+
+  .footer-links a {
+    font-size: 12px;
+    font-weight: 100;
+    margin: 45px;
+  }
+
+  .logo-address {
+    position: relative;
+  }
+
+
+  .footer-div :first-child {
+    margin-bottom: 55px;
+  }
+
+  address {
+    font-size: small;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -826,8 +860,9 @@ h4 {
     justify-content: space-around;
     padding-left: 25px;
     align-items: flex-start;
-    margin-bottom: 150px;
+    /* margin-bottom: 150px; */
     position: relative;
+    box-shadow: 0px 10px 17px 10px rgb(232 233 239);
   }
 
   .project-samples {
@@ -1125,5 +1160,43 @@ h4 {
     position: absolute;
     top: 14px;
     left: 27px;
+  }
+
+  footer {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 300px;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+  }
+
+  footer img {
+    margin-bottom: 40px;
+  }
+
+  .footer-links a {
+    font-size: 12px;
+    font-weight: 100;
+    margin: 19px;
+  }
+
+  .logo-address {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    align-content: center;
+  }
+
+  address {
+    font-size: 12px;
+    font-weight: 100;
+    margin-left: 10px;
+  }
+
+  .footer-div :first-child {
+    margin-top: 50px;
+    margin-bottom: 52px;
   }
 }
