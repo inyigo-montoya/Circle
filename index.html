@@ -10,7 +10,6 @@
   <title>Circle</title>
 </head>
 
-
 <body>
   <container id="main-container">
     <nav>
@@ -19,15 +18,17 @@
         <li class="navigation">
           <a href="index.html">Home</a>
         </li>
-        <li class="navigation"><a href="projects.html">Projects</a></li>
-        <li class="navigation"><a href="services.html">Services</a></li>
+        <li class="navigation">
+          <a href="projects.html">Projects</a>
+        </li>
+        <li class="navigation">
+          <a href="services.html">Services</a>
+        </li>
       </ul>
       <form action="services.html" class="contact-us-button">
         <input type="submit" value="Contact Us" />
       </form>
-
     </nav>
-
     <div id="nav-burger">
       <span></span>
       <span></span>
@@ -38,7 +39,6 @@
 
     <section class="hero" id="hero-container">
       <container class="hero-div">
-
         <h1>Empower Your Business With Stunning Design!</h1>
         <p>Circle is a digital design and development studio. <br>
           We design and develop astonishing websites and mobile apps. </p>
@@ -53,12 +53,12 @@
       </container>
       <container class="hero-div" id="heroimage-container">
         <img src="hero-section/card-1.png" alt="credit card with to round corners" id="credit-card">
-        <img src="hero-section/hero-image.png" alt="smiling young, succesful, good looking and very happy coder"
-          id="the-hero">
+        <!-- <img src="hero-section/hero-image.png" alt="smiling young, succesful, good looking and very happy coder"
+          id="the-hero"> -->
         <img src="hero-section/card-2.png" alt="emoji and text saying that your job has been accepted" id="ok-emoji">
       </container>
-
     </section>
+
     <section class="logo-section">
       <img src="./logos/airbnb-logo.svg" alt="airbnb logo" class="greyscale">
       <img src="./logos/google-logo.svg" alt="google logo" class="greyscale">
@@ -66,6 +66,7 @@
       <img src="./logos/fedex-logo.svg" alt="fedex logo" class="greyscale">
       <img src="./logos/amazon-logo.svg" alt="amazon logo" class="greyscale">
     </section>
+
     <section class="recent-projects">
       <h3>Recent Projects</h3>
       <div class="project-container">
@@ -95,6 +96,8 @@
         </div>
       </div>
     </section>
+
+
     <section class="testimonial-section">
       <img src="testimonial-section/memoji-1.png" alt="" class="testimonial-emoji" id="emoji1">
       <img src="testimonial-section/memoji-2.png" alt="" class="testimonial-emoji" id="emoji2">
@@ -112,12 +115,40 @@
           <p>Booking.com</p>
         </span>
       </span>
+    </section>
 
+    <section class="service-section">
+      <h3>Our Services</h3>
+      <div class="service-container">
+        <div class="service-samples">
+          <img src="services-section/icons/1.svg" alt="">
+          <div class="service-info">
+            <h4>Simplify</h4>
+            <p>UI Design & App Development</p>
+            <a href="service.html">Learn more</a>
+          </div>
+        </div>
+        <div class="service-samples">
+          <img src="services-section/icons/2.svg" alt="">
+          <div class="service-info">
+            <h4>Dashcoin</h4>
+            <p>Web Development</p>
+            <a href="service.html">Learn more</a>
+          </div>
+        </div>
+        <div class="service-samples">
+          <img src="services-section/icons/3.svg" alt="" id="smaller-pic">
+          <div class="service-info">
+            <h4>Vectorify</h4>
+            <p>User Experience Design</p>
+            <a href="service.html">Learn more</a>
+          </div>
+        </div>
+      </div>
     </section>
 
   </container>
-  <script src="./index.js"></script>
-
 </body>
+<script src="./index.js"></script>
 
 </html>
