@@ -1595,25 +1595,14 @@ h4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: max-content;
+    flex-direction: column;
+    margin-left: 12px;
   }
 
   .email-phone input {
     width: 100%;
   }
-
-  /*
-    
-      .email-phone-label {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        width: 100%;
-      }
-    
-      .email-phone:second-child {
-        width: 50%;
-      } */
 
   form.contact-us-form {
     width: -webkit-fill-available;
@@ -1622,6 +1611,7 @@ h4 {
   .contact-us-form input {
     background-color: rgb(230, 233, 241);
     margin-bottom: 25px;
+    font-size: 5vw;
   }
 
   .contact-us-form label {
