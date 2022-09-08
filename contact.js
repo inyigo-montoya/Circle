@@ -12,12 +12,12 @@ const API_KEY = "a0wwnrex_JeRhBybn5iFYziStv9d2M6Mchd2b4B4H";
 //   });
 // });
 
-const subscribeButton = document.querySelector(".subscribe");
+const submitButton = document.querySelector(".contact-us-form");
 
-subscribeButton.addEventListener("submit", (event) => {
+submitButton.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  const formData = new FormData(subscribeButton);
+  const formData = new FormData(submitButton);
 
   const data = Object.fromEntries(formData);
 
@@ -32,6 +32,7 @@ subscribeButton.addEventListener("submit", (event) => {
     },
     body: JSON.stringify(body),
   };
+
   fetch(url, fetchParams)
     .then((response) => {
       response.json();

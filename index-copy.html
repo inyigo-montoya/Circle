@@ -29,16 +29,34 @@
         <input type="submit" value="Contact Us" />
       </form>
     </nav>
-    <div id="nav-burger">
+    <input type="checkbox" id="menyAvPaa">
+    <label id="burger" for="menyAvPaa">
+      <div></div>
+      <div></div>
+      <div></div>
+    </label>
+    <span id="meny">
+      <ul>
+        <li>Home</li>
+        <li>Projects</li>
+        <li>Contact</li>
+
+      </ul>
+    </span>
+
+
+
+
+    <!-- <div id="nav-burger">
       <span></span>
       <span></span>
       <span></span>
       <span></span>
       <img src="./logos/circle.svg" alt="company logo">
-    </div>
+    </div> -->
 
     <section class="hero" id="hero-container">
-      <container class="hero-div" id="hero-text">
+      <container class="hero-div">
         <h1>Empower Your Business With Stunning Design!</h1>
         <p>Circle is a digital design and development studio. <br>
           We design and develop astonishing websites and mobile apps. </p>
@@ -163,10 +181,10 @@
     <section class="querie-mail">
       <h3>Do you have any questions?</h3>
       <p>Let us help you!</p>
-      <form class="subscribe">
+      <form action="contact.html">
         <img src="newsletter/icon/mail.svg" alt="envelope">
-        <input name="email" type="email" placeholder="Enter your email" class="contact-us-input">
-        <button type="submit" value="Subscribe" class="contact-us-button">Subscribe</button>
+        <input type="email" placeholder="Enter your email" class="contact-us-input">
+        <input type="submit" value="Subscribe" class="contact-us-button">
       </form>
     </section>
     <footer>
@@ -178,7 +196,7 @@
       </div>
       <div class="footer-div">
         <div class="footer-links">
-          <a href="index-copy.html">Team</a>
+          <a href="index.html">Team</a>
           <a href="projects.html">Services</a>
           <a href="contact.html">About Us</a>
         </div>
