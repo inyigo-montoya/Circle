@@ -1,16 +1,5 @@
 const url = "https://database.deta.sh/v1/a0wwnrex/contactmessages/items";
 const API_KEY = "a0wwnrex_JeRhBybn5iFYziStv9d2M6Mchd2b4B4H";
-// $(document).ready(function () {
-//   $("#nav-burger").click(function () {
-//     $(this).toggleClass("open");
-//   });
-// });
-
-// document.ready(function () {
-//   "#nav-burger".click(function () {
-//     $(this).toggleClass("open");
-//   });
-// });
 
 const subscribeButton = document.querySelector(".subscribe");
 
