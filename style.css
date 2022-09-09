@@ -138,43 +138,6 @@ h4 {
     height: 258.32px;
   }
 
-  /* .contact-us-button input {
-    background-color: var(--darkBlue);
-    color: var(--lightGrey);
-    border: none;
-    height: 50px;
-    width: 150px;
-    font-size: 1.09em;
-  }
-
-  .secondary-button {
-    background: transparent;
-    border: none;
-    height: 50px;
-    width: 150px;
-    font-size: 1.09em;
-    color: var(--grey);
-  }
-
-  h1 {
-    font-size: 60px;
-    font-weight: bold;
-  }
-
-  h2 {
-    font-size: 50px;
-    font-weight: bold;
-  }
-
-  h3 {
-    font-size: 40px;
-    font-weight: bold;
-  }
-
-  h4 {
-    font-size: 24px;
-    font-weight: bold;
-  } */
 
   #hero-container {
     display: flex;
@@ -213,7 +176,6 @@ h4 {
     padding: 100px 0;
     width: 40%;
   }
-
 
   #credit-card {
     width: 300px;
@@ -668,7 +630,7 @@ h4 {
 
   #project-simplify {
     width: -webkit-fill-available;
-    margin: 50px 90px;
+    margin: 50px 95px;
     height: calc(0.34 * 100vw);
     object-fit: cover;
   }
@@ -693,19 +655,19 @@ h4 {
     position: absolute;
     transform: scale(0.95);
     width: 100%;
-    opacity: 14%;
+    opacity: 10%;
     z-index: 1;
   }
 
   .simplify-main h2 {
     font-size: 55px;
-    margin-left: 82px;
+    margin-left: 95px;
     font-weight: bold;
   }
 
   .simplify-main span {
     display: flex;
-    margin: 15px 42px;
+    margin: 15px 49px;
     justify-content: space-between;
     align-items: center;
   }
@@ -733,7 +695,7 @@ h4 {
     font-size: 1.2rem;
     color: var(--grey);
     line-height: 160%;
-    margin: 40px 80px;
+    margin: 40px 95px;
   }
 
   #orbit-sample {
@@ -848,6 +810,7 @@ h4 {
     color: var(--grey);
     font-size: 0.8rem;
     line-height: 145%;
+    padding: 0 10px;
   }
 
 
@@ -1481,7 +1444,7 @@ h4 {
     position: absolute;
     transform: scale(0.95);
     width: 100%;
-    opacity: 14%;
+    opacity: 10%;
     z-index: 1;
   }
 
