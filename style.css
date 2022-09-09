@@ -47,6 +47,8 @@ h1 {
   font-weight: bold;
   color: var(--nearlyBlack);
   line-height: 125%;
+
+  margin-top: 150px;
 }
 
 h2 {
@@ -190,6 +192,7 @@ h4 {
     align-content: center;
     align-items: center;
     width: 60%;
+    height: calc(51vw);
   }
 
   .hero-div {
