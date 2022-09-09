@@ -71,6 +71,18 @@ h4 {
     display: none;
   }
 
+  #burger-logo {
+    display: none;
+  }
+
+  #menyAvPaa {
+    display: none;
+  }
+
+  #meny {
+    display: none;
+  }
+
   nav {
 
     display: flex;
@@ -879,11 +891,16 @@ h4 {
     cursor: pointer;
     width: 2rem;
     height: 2rem;
-    right: 1rem;
-    top: 1rem;
+    right: 1.9rem;
+    top: 1.9rem;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+  }
+
+  #burger-logo {
+    margin: 1.9rem;
+    width: 100px;
   }
 
   #burger>div {
