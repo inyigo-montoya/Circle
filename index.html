@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/scrollreveal@4"></script>
   <title>Circle</title>
 </head>
 
@@ -142,7 +143,6 @@
         </div>
         <div class="service-samples">
           <div class="service-img-background">
-
             <img src="services-section/icons/2.svg" alt="mouse-tip with some kind of sparkles">
           </div>
           <div class="service-info">
@@ -197,6 +197,14 @@
     </footer>
 
   </container>
+  <script>
+    ScrollReveal().reveal('.testimonial-section img', {
+      delay: 300,
+      duration: 2000,
+      // origin: 'left',
+      // distance: '100px'
+    });
+  </script>
 </body>
 <script src="./index.js"></script>
 
